@@ -1,0 +1,34 @@
+<view class = "rankListWarp">
+
+  <!-- 顶部图片样式 -->
+  <view class='top'>
+       <image src='{{rankImg}}'></image>
+
+       <text>{{rankTitle}}</text>
+
+       <textarea>{{rankContent}}</textarea>
+
+  </view>
+
+  <!-- 歌曲列表 -->
+   <view class='body'>
+      <!-- 全部播放 -->
+      <view class='playAll'>
+          <image src='{{playAllImg}}'></image>
+          <text>{{playAllStr}}</text>
+      </view>
+
+      <!-- 列表 -->
+      <view wx:for='{{musicInfos}}' wx:for-index='index' wx:for-item='music' wx:key='key'>
+        <view bindtap="playMusic" class='musicStyle' data-music="{{music}}">
+          <view class='musicNumber'>{{music.musicNumber}}</view>
+          <text class='musicName'>{{music.musicName}}</text>
+          <text class='musicAuthor'>{{music.musicAuthor}}</text>
+        </view>
+      </view>
+
+     </view>
+
+  <!-- 底部提示 -->
+   <view class='foot'></view>
+</view>

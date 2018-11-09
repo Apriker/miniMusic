@@ -1,0 +1,67 @@
+page{
+  background-color:#F7F7Ff;
+}
+
+/* top样式部分 */
+.top{
+height:360rpx;
+margin-left: 10rpx;
+margin-right: 10rpx;
+margin-top: 32rpx;
+border-bottom-style:solid;
+border-bottom-width:4rpx;
+border-bottom-color:#e8e8e8;
+}
+.topStyle {
+padding-top: 6rpx;
+ float: left;
+ width: 50%;
+}
+
+.topStyle image{
+  width: 99%;
+  height: 280rpx;
+}
+ .topImg_1{
+  float: left;
+
+}
+.topImg_2{
+  float: right;
+
+}
+.topStyle text{
+ float: left;
+  margin-top: 12rpx;
+ font-size:1rem;
+}
+
+/* body内容样式部分 */
+.recommendStyle{
+  position:relative;
+  width: 700rpx;
+  height: 320rpx;
+  margin-left: 28rpx;
+  margin-top: 65rpx;
+  background-color:white;
+  border-radius: 12rpx;
+}
+
+.recommendStyle image{
+  
+  width: 230rpx;
+  height: 225rpx;
+}
+.recommendStyle text{
+  width: 100%;
+  margin-top: 12rpx;
+  margin-left: 300rpx;
+  float:left;
+  height: 11rpx;
+}
+.bodyFoot{
+  text-align:center;
+  font-size: 26rpx;
+  margin-top: 120rpx;
+  margin-bottom: 36rpx;
+}

@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/musicIndex/hotMusic",
+    "pages/personalCenter/index",
+    "pages/logs/logs",
+    "pages/musicList/musicList",
+    "pages/play/play"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#7f7f7f",
+    "selectedColor": "#006699",
+    "backgroundColor": "#f7f7fa",
+    "position":"bottom",
+    "borderStyle":"black",
+    "list": [
+      {
+      "pagePath": "pages/musicIndex/hotMusic",
+      "text": "热歌榜",
+      "iconPath": "imgResource/footTabBar/music.jpg",
+      "selectedIconPath":"imgResource/footTabBar/music.jpg"
+      },
+      {
+        "pagePath": "pages/personalCenter/index",
+        "text": "我的音乐",
+        "iconPath":"imgResource/footTabBar/my.jpg",
+        "selectedIconPath": "imgResource/footTabBar/my.jpg"
+      }
+    ]
+  }
+
+   
+}

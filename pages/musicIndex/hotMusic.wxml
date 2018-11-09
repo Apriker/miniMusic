@@ -1,0 +1,64 @@
+<view class='htoWarp'>
+
+    <!-- 顶部 -->
+    <view class='top'>
+
+         <view class='topStyle' id='{{viewId_1}}' bindtap='rankingList' >
+          <image class='topImg_1' src='{{topEverydayImg_1}}'></image>
+          <text>{{topEverydayStr_1}}</text>
+        </view>
+
+        <view class='topStyle' id='{{viewId_2}}' bindtap='rankingList' >
+          <image class='topImg_2' src='{{topEverydayImg_2}}'></image>
+          <text>{{topEverydayStr_2}}</text>
+        </view>
+  
+  </view>
+
+  <!-- 类容 -->
+   <view class='body'>
+
+    
+    <view class='recommendStyle' bindtap='rankingList'>
+          <image src='{{bodyImg_1_1}}'></image>
+          <image src='{{bodyImg_1_2}}'></image>
+          <image src='{{bodyImg_1_3}}'></image>
+          <text>{{bodyStr_1}}</text>
+    </view>
+
+     <view class='recommendStyle' bindtap='rankingList'>
+          <image src='{{bodyImg_1_1}}'></image>
+          <image src='{{bodyImg_1_2}}'></image>
+          <image src='{{bodyImg_1_3}}'></image>
+          <text>{{bodyStr_1}}</text>
+    </view>
+
+     <view class='recommendStyle' bindtap='rankingList'>
+          <image src='{{bodyImg_1_1}}'></image>
+          <image src='{{bodyImg_1_2}}'></image>
+          <image src='{{bodyImg_1_3}}'></image>
+          <text>{{bodyStr_1}}</text>
+    </view>
+
+     <view class='recommendStyle' bindtap='rankingList'>
+          <image src='{{bodyImg_1_1}}'></image>
+          <image src='{{bodyImg_1_2}}'></image>
+          <image src='{{bodyImg_1_3}}'></image>
+          <text>{{bodyStr_1}}</text>
+    </view>
+
+    <view class='bodyFoot'>
+      <text>技术支持qq:1141550749</text>
+    </view>
+  
+  </view>
+
+  <!-- 底部 -->
+   <view class='foot'>
+
+
+  
+  </view>
+
+
+</view>

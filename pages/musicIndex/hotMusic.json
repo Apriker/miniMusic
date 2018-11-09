@@ -1,0 +1,9 @@
+
+  {
+    "navigationBarBackgroundColor": "#F7F7Ff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "热门歌曲",
+    "backgroundColor": "#F7F7Ff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh":true
+  }

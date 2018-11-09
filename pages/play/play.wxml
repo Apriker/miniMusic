@@ -1,0 +1,9 @@
+<view class='playWarp'>
+
+  <view class='play'>
+      <audio id='musicPlayer' src='{{playUrl}}'></audio>
+  </view>
+
+
+</view>
+
